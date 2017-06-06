@@ -23,8 +23,7 @@ body {
   position: fixed;
   background-color: rgba(200, 247, 197, 0.4);
   padding: 10px;
-  border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 1%;
 }
 
 .list-inline {
