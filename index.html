@@ -5,12 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/a042992796.js"></script>
   <title>À propos de moi</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Titillium+Web" rel="stylesheet">
 </head>
 
 <body class="f-size-1_5">
+  <nav>
+    <ul id="nav-ul" class="t-center">
+      <li><a class="link-nodeco" href="#about">À propos</a></li>
+      <li><a class="link-nodeco" href="#social">Social</a></li>
+      <li><a class="link-nodeco" href="#theatre">Théâtre</a></li>
+      <li><a class="link-nodeco" href="#help">Aide</a></li>
+    </ul>
+  </nav>
   <div id="container">
     <header class="card flex-column-center border-radius-tl-br">
       <div>
@@ -20,31 +29,50 @@
       <h2 class="f-size-1_5">Étudiant à Simplon.co</h2>
     </header>
     <section>
-      <p class="card border-radius-tl-br">Après avoir obtenu un BAC S en 2008, j'ai intégré une école de commerce. Après un an et demi et un semestre à Copenhague (formation en anglais) j'ai décidé de changer de voie, ne m'épanouissant pas dans le commerce. Passionné de théâtre dès le plus
+      <p id="about" class="card border-radius-tl-br">Après avoir obtenu un BAC S en 2008, j'ai intégré une école de commerce. Après un an et demi et un semestre à Copenhague (formation en anglais) j'ai décidé de changer de voie, ne m'épanouissant pas dans le commerce. Passionné de théâtre dès le plus
         jeune âge, j'ai fait le choix d'intégrer les Cours Simon, une formation professionnelle pour apprendre le métier de comédien. Après cette école, j'ai créé une compagnie théâtrale sous forme d'association loi 1901 et ai monté deux pièces que nous
         avons joué avec ma compagnie une centaine de fois à Paris. Mais 5 ans après la sortie d'école, et des années à travailler (en grande partie bénévolement) dans le milieu du spectacle, je souhaite aujourd'hui entamer une carrière dans le deuxième
-        domaine qui me passionne depuis tout petit : l'informatique !</p>
-      <ul class="card list-inline border-radius-tl-br">
-        <li><a class="link-nodeco" href="https://twitter.com/Selbahc">Twitter</a></li>
-        <li><a class="link-nodeco" href="https://linkedin.com/in/stanislas-chable">LinkedIn</a></li>
-        <li><a class="link-nodeco" href="https://github.com/Selbahc">GitHub</a></li>
-      </ul>
-      <table class="card border-radius-tl-br">
+        domaine qui me passionne depuis tout petit : l'informatique ! Et plus particulièrement le développement web...</p>
+      <div id="social" class="card">
+        <p class="t-center">Retrouvez-moi facielement sur les réseaux sociaux, afin de suivre l'avancée de mon travail et mon parcours professionnel !</p>
+        <ul class="list-inline border-radius-tl-br">
+          <li><a class="link-nodeco" href="https://twitter.com/Selbahc"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+          <li>
+            <a class="link-nodeco" href="https://linkedin.com/in/stanislas-chable"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+          <li><a class="link-nodeco" href="https://github.com/Selbahc"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+        </ul>
+      </div>
+      <table id="theatre" class="card border-radius-tl-br">
         <thead>
           <tr>
-            <th class="t-center f-size-1_5" colspan="3">Pièces de théâtre préférées</th>
+            <th class="t-center f-size-1_5 t-underline" colspan="3">Pièces de théâtre préférées</th>
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td class="t-center">Le médecin malgré lui</td>
+            <td class="t-center">Molière</td>
+            <td class="t-center">1666</td>
+          </tr>
+          <tr>
+            <td class="t-center">Fantasio</td>
+            <td class="t-center">Alfred DE MUSSET</td>
+            <td class="t-center">1834</td>
+          </tr>
+          <tr>
+            <td class="t-center">Mais n'te promène donc pas toute nue</td>
+            <td class="t-center">Georges FEYDEAU</td>
+            <td class="t-center">1911</td>
+          </tr>
           <tr>
             <td class="t-center">Victor ou les enfants au pouvoir</td>
             <td class="t-center">Roger VITRAC</td>
             <td class="t-center">1929</td>
           </tr>
           <tr>
-            <td class="t-center">Mais n'te promène donc pas toute nue</td>
-            <td class="t-center">Georges FEYDEAU</td>
-            <td class="t-center">1911</td>
+            <td class="t-center">L'amour des quatre colonels</td>
+            <td class="t-center">Peter USTINOV</td>
+            <td class="t-center">1951</td>
           </tr>
           <tr>
             <td class="t-center">Monsieur Amilcar</td>
@@ -53,6 +81,10 @@
           </tr>
         </tbody>
       </table>
+      <footer id="help" class="t-center">
+        <p>Pour naviguer sur ce site, faites simplement défiler la page de bas en haut.</p>
+        <p>Vous pouvez également vous servir du menu de navigation situé en haut à gauche de la page.</p>
+      </footer>
     </section>
   </div>
 </body>

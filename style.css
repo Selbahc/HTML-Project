@@ -2,15 +2,29 @@ body {
   background: #019875;
   font-family: 'Titillium Web', sans-serif;
   color: #C8F7C5;
-  line-height: 150%;
+  line-height: 170%;
 }
 
 .t-center {
   text-align: center;
 }
 
+.t-underline {
+  text-decoration: underline;
+}
+
 .f-size-1_5 {
   font-size: 1.5em;
+}
+
+#nav-ul {
+  list-style: none;
+  padding-left: 0px;
+  position: fixed;
+  background-color: rgba(200, 247, 197, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 .list-inline {
@@ -46,6 +60,7 @@ body {
   padding: 20px;
   text-align: justify;
   background-color: rgba(200, 247, 197, 0.1);
+  margin-bottom: 70px;
 }
 
 #container {
@@ -61,10 +76,16 @@ body {
 h1, h2, h3 {
   font-family: 'Lobster Two', cursive;
   font-size: 2.5em;
-  line-height: 25%;
+  line-height: 35%;
 }
 
 table, td {
-  padding: 10px 30px;
+  padding: 15px 30px;
   margin: 0 auto;
+}
+
+#help {
+  font-size: 0.8em;
+  line-height: 80%;
+  margin-top: 120px;
 }
