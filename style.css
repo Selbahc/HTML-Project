@@ -1,0 +1,34 @@
+body {
+  background: #019875;
+  font-family: 'Titillium Web', sans-serif;
+  color: #C8F7C5;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+ul li {
+  list-style: circle;
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 2.5em;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+header img {
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: #C8F7C5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
