@@ -84,7 +84,10 @@ table, td {
 }
 
 #help {
-  font-size: 0.8em;
+  border-top: 1px solid #C8F7C5;
+  border-top-left-radius: 15px;
+  font-size: 0.7em;
   line-height: 80%;
-  margin-top: 120px;
+  margin: 120px auto;
+  width: 70%;
 }
